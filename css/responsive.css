@@ -1,0 +1,41 @@
+@media screen and (max-width:767px){
+	 .container .row .col-md-10{
+	 	padding-left: 0px !important;
+	 	padding-right: 0px !important;
+	}
+
+	.signature{
+		text-align: center;
+	}
+	.designation{
+		float: none;
+		margin: 0 auto;
+		margin-top: -20px;
+	}
+	.bottom-title{
+		margin-bottom: 20px;
+		text-align: center;
+	}
+}
+@media screen and (max-width:3000px) and (min-width:1200px){
+	#contents{
+		margin-top: 40px;
+	}
+}
+
+@media screen and (max-width:1199px) and (min-width:992px){
+
+#logo{
+	position: absolute;
+	top:10%;
+	left: 50%;
+	transform: translate(-50%);
+	-webkit-transform: translate(-50%);
+	-moz-transform: translate(-50%);
+}
+
+	#contents{
+		margin-top: 50px;
+	}
+
+}
